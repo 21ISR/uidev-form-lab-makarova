@@ -19,7 +19,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-self: start;
-    background-color: #764ba2;
+    background: linear-gradient(#667eea,#764ba2);
     color: white;
     margin: 4px;
     padding: 50px;
@@ -28,9 +28,15 @@ header{
 section{
     margin: 7px;
 }
+.ema{
+    font-size: 17px;
+}
+.remem{
+    font-size: 15px;
+}
 .emapas{
     height: 35px;
-    width: 90%;
+    width: 100%;
     font-size: 14px;
 }
 .forgpas{
@@ -38,12 +44,16 @@ section{
     flex-direction: column;
     font-size: 14px;
     justify-self: end;
+    color: #667eea;
 }
 .butt{
     height: 45px;
-    background-color: #764ba2;
+    background: linear-gradient(#667eea,#764ba2);
     color: white;
-    width: 96%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
 .icon{
     display: flex;
@@ -54,12 +64,14 @@ section{
     width: 50px;
     align-items: center;
     justify-content: center;
+    padding: 8px;
 }
 .dont{
     display: flex;
     justify-content: center;
     font-size: 14px;
     color: #4a5568;
+    padding: 15px;
 }
 .reg{
     display: flex;
@@ -77,5 +89,40 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+}
+.stud{
+    color: white;
+    font-size: 20px;
+}
+.stud2{
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+.fullname{
+    width: 100%;
+    font-size: 17px;
+}
+.fullname1{
+    width: 100%;
+    font-size: 17px;
+    background-color: #dbdde2;
+}
+.log{
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(#667eea,#764ba2);
+    border-radius: 10px;
+    color: white;
+}
+.iagr{
+    font-size: 14px;
+}
+.al{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    color: #667eea;
 }
